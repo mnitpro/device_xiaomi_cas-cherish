@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from the device configuration.
 $(call inherit-product, device/xiaomi/cas/device.mk)
 
-# Inherit from the AcmeUI configuration.
-$(call inherit-product, vendor/acme/config/mobile.mk)
+# Inherit from the cherishUI configuration.
+$(call inherit-product, vendor/cherish/config/mobile.mk)
 
-PRODUCT_NAME := acme_cas
+PRODUCT_NAME := cherish_cas
 PRODUCT_DEVICE := cas
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := M2007J1SC
